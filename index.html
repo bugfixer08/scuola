@@ -1,3 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carosello Immagini</title>
+
+  <!-- Link al CSS di Bootstrap (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    /* Rendi le immagini del carosello responsive */
+    .carousel-item img {
+      width: 100%;
+      height: auto;
+    }
+
+    /* Stile del testo sul carosello */
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5); /* Aggiungi uno sfondo semitrasparente al testo */
+      padding: 10px;
+    }
+
+    /* Personalizza il colore del testo */
+    .carousel-caption h5, .carousel-caption p {
+      color: white;  /* Colore del testo */
+    }
+
+    /* Aggiungi uno spazio al di sotto del carosello */
+    .carousel {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+<body>
+
 <div id="carouselExampleCaptions" class="carousel slide">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -45,3 +81,9 @@
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+
+<!-- JavaScript di Bootstrap (CDN) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
